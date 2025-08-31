@@ -33,17 +33,17 @@ export default function App() {
   // ====== Рендер компонентів ======
   return (
     <div className={css.app}>
-      {/* Інформація про кафе */}
+      {}
       <CafeInfo />
 
-      {/* Кнопки голосування */}
+      {}
       <VoteOptions
         onVote={handleVote}
         onReset={resetVotes}
-        canReset={totalVotes > 0} // кнопка Reset з'являється лише при голосах
+        canReset={totalVotes > 0}
       />
 
-      {/* Статистика або повідомлення про відсутність голосів */}
+      {}
       {totalVotes > 0 ? (
         <VoteStats
           votes={votes}
