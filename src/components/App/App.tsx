@@ -4,7 +4,7 @@ import VoteOptions from "../voteOptions/voteOptions";
 import VoteStats from "../voteStats/voteStats";
 import Notification from "../notification/notification";
 import type { Votes, VoteType } from "../../types/votes";
-import css from "./App.module.css";
+import css from "./app.module.css";
 
 export default function App() {
   // ====== Стан голосів ======
